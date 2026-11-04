@@ -1,0 +1,37 @@
+# Virtual environment
+myvenv/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated passwords (contain RAW passwords - never upload)
+passwords.txt
+gen_pwd_*.txt
+
+# Port scanner exports
+port_scan_*.txt
+port_scan_*.csv
+port_scan_*.json
+
+# Traffic analyzer exports (contain your network activity)
+traffic_capture_*.txt
+traffic_capture_*.csv
+traffic_capture_*.json
+traffic_summary_*.txt
+traffic_summary_*.csv
+traffic_summary_*.json
+*.pcap
+*.pcapng
+
+# Secrets
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
