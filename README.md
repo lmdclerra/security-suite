@@ -24,8 +24,8 @@ A multi-function security toolkit with a Tkinter GUI, built for BSIT-A3103.
 ## Setup (Windows)
 
 ```powershell
-git clone https://github.com/<username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/lmdclerra/security-suite.git
+cd security-suite
 python -m venv myvenv
 .\myvenv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```powershell
-python Current_TA.py
+python SecuritySuite.py
 ```
 
 > For the Traffic Analyzer, open your terminal **as Administrator** before running. All other modules work without admin rights. If Scapy is not installed, the app still runs but the Traffic Analyzer tab is disabled.
